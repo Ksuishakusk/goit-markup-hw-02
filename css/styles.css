@@ -1,7 +1,7 @@
 /*Base styles */
 body {
     font-family: Roboto;
-
+color: #2E2F42
 }
 .section{
 }
@@ -10,5 +10,22 @@ color: currentColor;
 text-decoration: none;
 }
 .list{
-
+list-style: none;
+}
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+.logo{
+color: var(--iris, #4D5AE5);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.logo-accent{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
