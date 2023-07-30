@@ -1,9 +1,9 @@
 /*Base styles */
 :root{
-    --primary-color:#43445;
+    --primary-color:#434455;
 }
 body {
-    font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
 color: var(--primary-color);
 background-color:#FFFFFF;
 }
