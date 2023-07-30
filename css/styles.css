@@ -1,7 +1,11 @@
 /*Base styles */
+:root{
+    --primary-color:#43445;
+}
 body {
-    font-family: Roboto;
-color: #2E2F42
+    font-family: "Roboto", sans-serif;
+color: var(--primary-color);
+background-color:#FFFFFF;
 }
 .section{
 }
@@ -17,15 +21,29 @@ button{
     cursor: pointer;
 }
 .logo{
-color: var(--iris, #4D5AE5);
+    font-family: "Raleway";
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
 }
-.logo-accent{
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
+.logo-link{
+text-decoration: none;
+<span class="color:#2e2f42"> Studio </span>
+}
+.nav{
+
+}
+.nav-list{
+list-style: none;
+}
+.nav-list-time{
+
+}
+.nav-list-link{
+        font-weight: 500;
+        line-height: 0.16;
+        letter-spacing: 0.02em;
 }
